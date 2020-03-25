@@ -24,7 +24,7 @@ SECRET_KEY = 'i0&iq&e9u9h6(4_7%pt2s9)f=c$kso=k$c$w@fi9215s=1q0^d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #change to true while running on localhost
-DEBUG = False
+DEBUG = True
 
 #ALLOWED_HOST Put empty while running on local host
 ALLOWED_HOSTS = ["aqueous-island-37259.herokuapp.com"]
@@ -51,8 +51,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     #Simplified static file serving.
-    #https://warehouse.python.org/project/whitenoise,
-    #comment below line while running on localhost
+    #https://warehouse.python.org/project/whitenoise,#comment below line while running on localhost
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
