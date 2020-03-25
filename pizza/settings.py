@@ -27,7 +27,7 @@ SECRET_KEY = 'i0&iq&e9u9h6(4_7%pt2s9)f=c$kso=k$c$w@fi9215s=1q0^d'
 DEBUG = True
 
 #ALLOWED_HOST Put empty while running on local host
-ALLOWED_HOSTS = ["aqueous-island-37259.herokuapp.com"]
+ALLOWED_HOSTS = ["https://cspizzamanage.herokuapp.com"]
 
 
 # Application definition
